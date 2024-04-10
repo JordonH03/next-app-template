@@ -18,7 +18,9 @@ export default {
       'fix',
       'fix!',
       'perf',
+      'perf!',
       'refactor',
+      'refactor!',
       'revert',
       'style',
       'test'
