@@ -2,11 +2,22 @@
   "name": "next-app-template",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Jordon Hong"
+  },
+  "host": "https://github.com",
+  "repository": {
+    "owner": "JordonH03",
+    "url": "git@github.com:JordonH03/next-app-template.git"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint --fix",
     "prepare": "husky",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
     "start": "next start",
     "test": "jest --coverage --silent"
   },
